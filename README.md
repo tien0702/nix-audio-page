@@ -1,0 +1,11 @@
+# NIX Audio — website
+
+Source of https://tien0702.github.io/nix-audio-page/ (documentation, FAQ, changelog and support for the
+NIX Audio Unity package). Built with MkDocs Material and deployed by GitHub Actions on every push to `main`.
+
+```bash
+pip install -r requirements.txt
+mkdocs serve        # preview at http://127.0.0.1:8000
+```
+
+The pages under `docs/docs/` are generated from `NixAudio/Documentation/NixAudio-Manual.md` in the package.
